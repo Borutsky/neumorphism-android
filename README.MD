@@ -13,19 +13,22 @@ Elevation determines automatically by checking component parent views. Currently
 Add it in your root build.gradle at the end of repositories:
 ```groovy
 allprojects {
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 Add the dependency :
 ```groovy
 dependencies {
-	        implementation 'com.github.Borutsky:neumorphism-android:1.0.0-alpha01'
-	}
+	implementation 'com.github.Borutsky:neumorphism-android:1.0.0-alpha01'
+}
 ```
 
 ## Usage
+
+Parent of Neumorphic element should always contain **android:clipChildren="false"**. It is required to avoid shadow to be clipped.
+Background of the window and all the Neumorphic components should have the same color. By respecting these advices you will be able to build a Neumorphic app with unified view of all elements.
 
 ### NeumorphicFrameLayout Example:
 
@@ -33,8 +36,8 @@ dependencies {
 <com.borutsky.neumorphism.NeumorphicFrameLayout
         android:layout_width="300dp"
         android:layout_height="300dp"
-        app:backgroundColor="#55B9F3"
-        app:cornerRadius="40dp"
+        app:background_color="#55B9F3"
+        app:corner_radius="40dp"
         app:shape="rectangle"
         app:state="flat"/>
 ```
