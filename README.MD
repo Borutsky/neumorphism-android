@@ -6,7 +6,7 @@ Elevation determines automatically by checking component parent views. Currently
 
 - NeumorphicFrameLayout
 
-<img src="" height="500">
+<img src="https://raw.githubusercontent.com/Borutsky/neumorphism-android/master/screenshots/preview.png" height="500">
 
 ## Gradle Dependency
 
@@ -21,7 +21,7 @@ allprojects {
 Add the dependency :
 ```groovy
 dependencies {
-	        implementation 'com.github.Borutsky:neumorphism-android:1.0.0-alpha'
+	        implementation 'com.github.Borutsky:neumorphism-android:1.0.0-alpha01'
 	}
 ```
 
