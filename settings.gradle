@@ -1,0 +1,3 @@
+include ':neumorphism'
+include ':app'
+rootProject.name = "NeumorphismAndroid"

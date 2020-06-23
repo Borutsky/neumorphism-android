@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NeumorphicFrameLayout">
+        <attr name="shape">
+            <enum name="rectangle" value="0" />
+            <enum name="circle" value="1" />
+        </attr>
+        <attr name="state">
+            <enum name="flat" value="0" />
+            <enum name="concave" value="1" />
+            <enum name="convex" value="2" />
+            <enum name="pressed" value="3" />
+        </attr>
+        <attr name="background_color" format="color" />
+        <attr name="corner_radius" format="dimension" />
+    </declare-styleable>
+</resources>

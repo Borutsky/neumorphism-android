@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NeumorphismAndroid</string>
+    <string name="press_me">Press me</string>
+    <string name="flat">Flat</string>
+    <string name="convex">Convex</string>
+    <string name="concave">Concave</string>
+    <string name="pressed">Pressed</string>
+</resources>
